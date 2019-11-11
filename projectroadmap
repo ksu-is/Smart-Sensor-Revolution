@@ -1,42 +1,42 @@
-#Step number 1: Building the raspberry pi circuit. -Evans and Malik
--ensure that the circuit is able to run properly.
--ensure that the current of electricity flows through python without mistakes.
--ensure that the sensor works properly. 
+1. Building the raspberry pi circuit. -Evans and Malik
+  -Ensure that the circuit is able to run properly.
+  -Ensure that the current of electricity flows through python without mistakes.
+  -Ensure that the sensor works properly. 
 
-#step number 2: Configuring the raspberry pi- Malik
--install python w1thermsensor library and adafruit library.
--import w1thermsensor.
--import time. 
--import sys.
--import Adafruit_DHT.
+2. Configuring the raspberry pi- Malik
+  -Install python w1thermsensor library and adafruit library.
+  -Import w1thermsensor.
+  -Import time. 
+  -Import sys.
+  -Import Adafruit_DHT.
 
 
-#step number 3: enabling the interface- Evans
--Connect the sensor to python throw the yellow serial wire. 
--let the raspberry pi know that we are connecting it to python through this pin by Raspberry Pi Configuration tool, 
-found in the Preferences menu.
+3. enabling the interface- Evans
+  -Connect the sensor to python throw the yellow serial wire. 
+  -Let the raspberry pi know that we are connecting it to python through this pin by Raspberry Pi Configuration tool, 
+  found in the Preferences menu.
 
-#step number 4: Creating the temperature sensor- Malik
--install the sensor into python.
--ensure that the code for the sensor runs with no errors thrown back.
+4. Creating the temperature sensor- Malik
+  -Install the sensor into python.
+  -Ensure that the code for the sensor runs with no errors thrown back.
 
-#step number 5: creating the display document- Evans
--ensuring that the time, temperature and humdity is displayed correctly.
+5. creating the display document- Evans
+  -Ensuring that the time, temperature and humdity is displayed correctly.
 
-#step number 6: Writing the code- Malik
--Create while loop to make sure that the sensor detects the temperature every second and posts it onto the display document.
--Python 3 Editor is to be used.
+6. Writing the code- Malik
+  -Create while loop to make sure that the sensor detects the temperature every second and posts it onto the display document.
+  -Python 3 Editor is to be used.
 
-#Step number 7: store the sensor information in sensor. -Evans
--Create an object called sensor to store the data from w1thermsensor.
+7. store the sensor information in sensor. -Evans
+  -Create an object called sensor to store the data from w1thermsensor.
 
-#Step number 8: Store the temperature information. -Malik
--Create an object called sensor to store the data from get.temperature().
--Ensure that the sensor is taking the temperature with every click.
+8. Store the temperature information. -Malik
+  -Create an object called sensor to store the data from get.temperature().
+  -Ensure that the sensor is taking the temperature with every click.
 
-Step number 9: Store the humidity information in humidity. -Evans
--Create an object called humidity.
--ensure that the humidity readings are correct and running with every click. 
+9. Store the humidity information in humidity. -Evans
+  -Create an object called humidity.
+  -ensure that the humidity readings are correct and running with every click. 
 
 
 
