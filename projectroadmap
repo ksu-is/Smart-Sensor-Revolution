@@ -1,0 +1,32 @@
+#Step number 1: Building the raspberry pi circuit. -Evans and Malik
+-ensure that the circuit is able to run properly.
+-ensure that the current of electricity flows through python without mistakes.
+-ensure that the sensor works properly. 
+
+#step number 2: Configuring the raspberry pi- Malik
+-install python library.
+-import w1thermsensor.
+-import time. 
+
+#step number 3: enabling the interface- Evans
+-Connect the sensor to python throw the yellow serial wire. 
+-let the raspberry pi know that we are connecting it to python through this pin by Raspberry Pi Configuration tool, 
+found in the Preferences menu.
+
+#step number 4: Creating the temperature sensor- Malik
+-install the sensor into python.
+-ensure that the code for the sensor runs with no errors thrown back.
+
+#step number 5: creating the display document- Evans
+-ensuring that the time, temperature and humdity is displayed correctly.
+
+#step number 6: Writing the code- Malik
+-Create while loop to make sure that the sensor detects the temperature every second and posts it onto the display document.
+-Python 3 Editor is to be used.
+
+Step number 7: store the sensor information in sensor. -Evans
+-Create an object called sensor to store the data from w1thermsensor.
+
+
+
+
