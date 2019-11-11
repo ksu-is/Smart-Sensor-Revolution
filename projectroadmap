@@ -4,9 +4,12 @@
 -ensure that the sensor works properly. 
 
 #step number 2: Configuring the raspberry pi- Malik
--install python library.
+-install python w1thermsensor library and adafruit library.
 -import w1thermsensor.
 -import time. 
+-import sys.
+-import Adafruit_DHT.
+
 
 #step number 3: enabling the interface- Evans
 -Connect the sensor to python throw the yellow serial wire. 
@@ -24,8 +27,16 @@ found in the Preferences menu.
 -Create while loop to make sure that the sensor detects the temperature every second and posts it onto the display document.
 -Python 3 Editor is to be used.
 
-Step number 7: store the sensor information in sensor. -Evans
+#Step number 7: store the sensor information in sensor. -Evans
 -Create an object called sensor to store the data from w1thermsensor.
+
+#Step number 8: Store the temperature information. -Malik
+-Create an object called sensor to store the data from get.temperature().
+-Ensure that the sensor is taking the temperature with every click.
+
+Step number 9: Store the humidity information in humidity. -Evans
+-Create an object called humidity.
+-ensure that the humidity readings are correct and running with every click. 
 
 
 
