@@ -25,7 +25,7 @@ After enabling the interface we are able to unpack the time library.
 This will enable us to get the temperature, humidity and time every second forever until the loop is broken.
 
 #temperature = sensor.get_temperature() and humidity= sensor.get_humidity()
-This will allow us to retrieve the temperature from the sensor into the variable temperature.
+This will allow us to retrieve the temperature from the sensor into the variable temperature then 
 This code will also allow us to retrieve the humidty and input it into the humidity variable.
 
 Then we will print the results using the print function onto a spreadsheet.
