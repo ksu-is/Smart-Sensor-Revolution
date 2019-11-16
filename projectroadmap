@@ -4,7 +4,7 @@
   -Ensure that the sensor works properly.  -DONE
 
 2. Configuring the raspberry pi- Malik
-  -Install python w1thermsensor library and adafruit library.- DONE
+  -Install python w1thermsensor library and adafruit library.
   -Import w1thermsensor. 
   -Import time. -DONE
   -Import sys.
