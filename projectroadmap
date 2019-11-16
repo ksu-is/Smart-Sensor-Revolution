@@ -1,12 +1,12 @@
 1. Building the raspberry pi circuit. -Evans and Malik
-  -Ensure that the circuit is able to run properly.
-  -Ensure that the current of electricity flows through python without mistakes.
-  -Ensure that the sensor works properly. 
+  -Ensure that the circuit is able to run properly. -DONE
+  -Ensure that the current of electricity flows through python without mistakes. -DONE
+  -Ensure that the sensor works properly.  -DONE
 
 2. Configuring the raspberry pi- Malik
-  -Install python w1thermsensor library and adafruit library.
-  -Import w1thermsensor.
-  -Import time. 
+  -Install python w1thermsensor library and adafruit library.- DONE
+  -Import w1thermsensor. 
+  -Import time. -DONE
   -Import sys.
   -Import Adafruit_DHT.
 
